@@ -53,12 +53,10 @@ def search_eng(message):
     
     keyword = message.text
     summary = wikipedia.summary(keyword)
-    try:
+   try:
         bot.reply_to(message, summary)
         bot.send_message(message.chat.id, 'please join our channel : @NS8_b \n فضلا اشترك في قناتنا : @NS8_b ')
     except:
-        serch = wikipedia.suggest(keyword)
-        search_r = "\n".join([f"{i+1}. {result}" for i, result in enumerate(serch)])
-        bot.send_message(message.chat.id,f'sorry do you mean :\n {search_r}\n if you found you search here please enter it ')
-    
-bot.polling()
+        serch = 'i could not acces to your search can you make it more specific'
+        search_r = 'لم استطع الحصول على بحثك هل يمكنك جعله دقيق اكثر'
+        bot.reply_to(message,f'ERROR: \n {serch}\n {search_r} ')
