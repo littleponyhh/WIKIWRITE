@@ -3,7 +3,7 @@ from telebot import types
 import wikipedia
 
 #bot setup
-TOKEN = '7124759861:AAESBdyNCAmVNarS8nm_bIKu5gZhvdEh9Ig'
+TOKEN = 'TELEGRAM API TOKEN'
 bot= telebot.TeleBot(TOKEN)
 print('bot started')
 #languages 
