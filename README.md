@@ -17,11 +17,11 @@ make /start to start the bot
 
 now you can use the wikiwrite bot 
 
-the button <search> : for searching in wikipedia 
+the button "search" : for searching in wikipedia 
 
-the button <translator> : for translate
+the button "translator" : for translate
 
-the button <our channel> : for visit our channel 
+the button "our channel" : for visit our channel 
 
 ## THE BOT DEVLOPED BY NS8_B
 
